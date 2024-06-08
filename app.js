@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
             <meta property="fc:frame:button:3:target" content="https://warpcast.com/~/developers/frames" />
             <meta property="fc:frame:button:4" content="Replit" />
             <meta property="fc:frame:button:4:action" content="link" />
-            <meta property="fc:frame:button:4:target" content="https://10.0.0.26:3000" />
+            <meta property="fc:frame:button:4:target" content="https://frames-lovat.vercel.app/app.js" />
         </head>
         <body>
             <h1>Hello, World!</h1>
