@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow on Telegram</title>
+    <style>
+        .frame {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <button id="follow-telegram" class="button">Follow on Telegram</button>
+    </div>
+
+    <script>
+        const telegramButton = document.getElementById('follow-telegram');
+
+        telegramButton.addEventListener('click', () => {
+            // Replace with your Telegram channel link
+            const telegramLink = 'https://t.me/ENS_Auctions';
+            window.open(telegramLink, '_blank');
+        });
+    </script>
+</body>
+</html>
