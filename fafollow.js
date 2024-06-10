@@ -23,10 +23,7 @@ app.get('/', (req, res) => {
             <meta property="fc:frame:button:3" content="Frame Validator" />
             <meta property="fc:frame:button:3:action" content="link" />
             <meta property="fc:frame:button:3:target" content="https://warpcast.com/~/developers/frames" />
-            <meta property="fc:frame:button:4" content="Replit" />
-            <meta property="fc:frame:button:4:action" content="link" />
-            <meta property="fc:frame:button:4:target" content="https://frames-lovat.vercel.app/app.js" />
-        </head>
+            </head>
         <body>
             <h1>Hello, World!</h1>
             <p>This is a simple Node.js app serving an HTML page with meta tags.</p>
