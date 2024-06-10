@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
             <meta property="fc:frame:button:2" content="Follow on X" />
             <meta property="fc:frame:button:2:action" content="link" />
             <meta property="fc:frame:button:2:target" content="https://x.com/ens_auction" />
-            <meta property="fc:frame:button:3" content="Follow on Telegram" />
+            <meta property="fc:frame:button:3" content="Telegram" />
             <meta property="fc:frame:button:3:action" content="link" />
             <meta property="fc:frame:button:3:target" content="https://t.me/ENS_Auctions" />
             </head>
