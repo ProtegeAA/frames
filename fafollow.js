@@ -11,17 +11,6 @@ app.get('/', (req, res) => {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Meta Tags Example</title>
-            <!-- Open Graph meta tags -->
-            <meta property="og:title" content="Example Title" />
-            <meta property="og:description" content="This is an example description." />
-            <meta property="og:image" content="https://fc-dev-call.replit.app/image" />
-            <meta property="og:url" content="https://example.com" />
-            <!-- Twitter Card meta tags -->
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:title" content="Example Title" />
-            <meta name="twitter:description" content="This is an example description." />
-            <meta name="twitter:image" content="https://example.com/image.jpg" />
             <!-- Farcaster meta tags -->
             <meta property="fc:frame" content="vNext" />
             <meta property="fc:frame:image" content="https://fc-dev-call.replit.app/image" />
