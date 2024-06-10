@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Farcaster meta tags -->
             <meta property="fc:frame" content="vNext" />
-            <meta property="fc:frame:image" content="https://x.com/ens_auction/photo" />
+            <meta property="fc:frame:image" content="https://fc-dev-call.replit.app/image" />
             <meta property="fc:frame:button:1" content="ENS.Auction" />
             <meta property="fc:frame:button:1:action" content="link" />
             <meta property="fc:frame:button:1:target" content="https://ens.auction/" />
